@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .login-form {
+            display: flex;
+            flex-direction: column;
+           
+           
+        }
+        .login-container{
+            display: flex;
+            justify-content: center;
+          
+        }
+        .login-form button{
+            background-color: orange;
+       
+        }
+        .login-form input, button{
+            border-radius: 5px;
+            margin: 3px;
+            font-size: 15px;
+            padding-left: 10px;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <section class="login-container">
+
+        <form action="" class="login-form">
+            <h2>Login</h2>
+
+            <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+            <input type="password" name="password" id="password" placeholder="Enter Your password" 
+            
+            required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
 </body>
+
 </html>
